@@ -14,12 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="php.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="php.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bosszhipin/spiders/php.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -27,12 +29,12 @@
       <file leaf-file-name="web.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bosszhipin/spiders/web.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="263">
+              <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="48" selection-end-column="36" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#1633#2082#0" expanded="false" />
-                <element signature="e#2126#2316#0" expanded="false" />
+                <element signature="e#318#1603#0" expanded="false" />
+                <element signature="e#2136#2191#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -58,18 +60,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bosszhipin/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="89" column="25" lean-forward="false" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
               <folding>
                 <element signature="e#193#215#0" expanded="true" />
                 <element signature="e#317#374#0" expanded="false" />
                 <element signature="e#415#2279#0" expanded="false" />
                 <element signature="e#454#1015#0" expanded="false" />
                 <element signature="e#684#855#0" expanded="false" />
-                <element signature="e#1067#2050#0" expanded="false" />
                 <element signature="e#2096#2279#0" expanded="false" />
                 <element signature="e#2321#3180#0" expanded="false" />
               </folding>
@@ -91,24 +92,23 @@
       <list>
         <option value="$PROJECT_DIR$/bosszhipin/items.py" />
         <option value="$PROJECT_DIR$/bosszhipin/middlewares.py" />
-        <option value="$PROJECT_DIR$/bosszhipin/spiders/web.py" />
         <option value="$PROJECT_DIR$/bosszhipin/spiders/java.py" />
         <option value="$PROJECT_DIR$/bosszhipin/spiders/python.py" />
         <option value="$PROJECT_DIR$/bosszhipin/spiders/html5.py" />
         <option value="$PROJECT_DIR$/bosszhipin/spiders/javascript.py" />
         <option value="$PROJECT_DIR$/bosszhipin/spiders/data_acquisition.py" />
         <option value="$PROJECT_DIR$/bosszhipin/spiders/product_manager.py" />
-        <option value="$PROJECT_DIR$/bosszhipin/spiders/php.py" />
         <option value="$PROJECT_DIR$/start.py" />
         <option value="$PROJECT_DIR$/bosszhipin/settings.py" />
         <option value="$PROJECT_DIR$/bosszhipin/pipelines.py" />
+        <option value="$PROJECT_DIR$/bosszhipin/spiders/web.py" />
+        <option value="$PROJECT_DIR$/bosszhipin/spiders/php.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="633" />
-    <option name="y" value="18" />
-    <option name="width" value="730" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -127,33 +127,12 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="bosszhipin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosszhipin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosszhipin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosszhipin" type="462c0819:PsiDirectoryNode" />
-              <item name="bosszhipin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bosszhipin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bosszhipin" type="462c0819:PsiDirectoryNode" />
-              <item name="bosszhipin" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zhilianzhaopin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../liepinwang" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,18 +188,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="633" y="18" width="730" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39739883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39732143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20394737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6911519" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -235,16 +215,72 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bosszhipin/spiders/php.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bosszhipin/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bosszhipin/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#193#215#0" expanded="true" />
+            <element signature="e#317#374#0" expanded="false" />
+            <element signature="e#415#2279#0" expanded="false" />
+            <element signature="e#454#1015#0" expanded="false" />
+            <element signature="e#684#855#0" expanded="false" />
+            <element signature="e#2096#2279#0" expanded="false" />
+            <element signature="e#2321#3180#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bosszhipin/spiders/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="88" lean-forward="true" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#318#1603#0" expanded="false" />
+            <element signature="e#2136#2191#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bosszhipin/spiders/php.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -254,8 +290,8 @@
           <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#1633#2082#0" expanded="false" />
-            <element signature="e#2126#2316#0" expanded="false" />
+            <element signature="e#318#1603#0" expanded="false" />
+            <element signature="e#2136#2191#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -286,7 +322,6 @@
             <element signature="e#415#2279#0" expanded="false" />
             <element signature="e#454#1015#0" expanded="false" />
             <element signature="e#684#855#0" expanded="false" />
-            <element signature="e#1067#2050#0" expanded="false" />
             <element signature="e#2096#2279#0" expanded="false" />
             <element signature="e#2321#3180#0" expanded="false" />
           </folding>
@@ -297,7 +332,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bosszhipin/spiders/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#318#1603#0" expanded="false" />
+            <element signature="e#2136#2191#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bosszhipin/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bosszhipin/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#193#215#0" expanded="true" />
+            <element signature="e#317#374#0" expanded="false" />
+            <element signature="e#415#2279#0" expanded="false" />
+            <element signature="e#454#1015#0" expanded="false" />
+            <element signature="e#684#855#0" expanded="false" />
+            <element signature="e#2096#2279#0" expanded="false" />
+            <element signature="e#2321#3180#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bosszhipin/spiders/php.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -307,8 +398,8 @@
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#1633#2082#0" expanded="false" />
-            <element signature="e#2126#2316#0" expanded="false" />
+            <element signature="e#318#1603#0" expanded="false" />
+            <element signature="e#2136#2191#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -339,7 +430,6 @@
             <element signature="e#415#2279#0" expanded="false" />
             <element signature="e#454#1015#0" expanded="false" />
             <element signature="e#684#855#0" expanded="false" />
-            <element signature="e#1067#2050#0" expanded="false" />
             <element signature="e#2096#2279#0" expanded="false" />
             <element signature="e#2321#3180#0" expanded="false" />
           </folding>
@@ -350,7 +440,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -394,7 +486,6 @@
             <element signature="e#415#2279#0" expanded="false" />
             <element signature="e#454#1015#0" expanded="false" />
             <element signature="e#684#855#0" expanded="false" />
-            <element signature="e#1067#2050#0" expanded="false" />
             <element signature="e#2096#2279#0" expanded="false" />
             <element signature="e#2321#3180#0" expanded="false" />
           </folding>
@@ -405,7 +496,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,7 +542,6 @@
             <element signature="e#415#2279#0" expanded="false" />
             <element signature="e#454#1015#0" expanded="false" />
             <element signature="e#684#855#0" expanded="false" />
-            <element signature="e#1067#2050#0" expanded="false" />
             <element signature="e#2096#2279#0" expanded="false" />
             <element signature="e#2321#3180#0" expanded="false" />
           </folding>
@@ -460,7 +552,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="27" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -557,22 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bosszhipin/spiders/web.py">
+    <entry file="file://$PROJECT_DIR$/bosszhipin/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#1633#2082#0" expanded="false" />
-            <element signature="e#2126#2316#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bosszhipin/spiders/php.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="242">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -585,27 +667,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bosszhipin/settings.py">
+    <entry file="file://$PROJECT_DIR$/bosszhipin/spiders/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="263">
+          <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#318#1603#0" expanded="false" />
+            <element signature="e#2136#2191#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bosszhipin/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="280">
+          <caret line="89" column="25" lean-forward="false" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
           <folding>
             <element signature="e#193#215#0" expanded="true" />
             <element signature="e#317#374#0" expanded="false" />
             <element signature="e#415#2279#0" expanded="false" />
             <element signature="e#454#1015#0" expanded="false" />
             <element signature="e#684#855#0" expanded="false" />
-            <element signature="e#1067#2050#0" expanded="false" />
             <element signature="e#2096#2279#0" expanded="false" />
             <element signature="e#2321#3180#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bosszhipin/spiders/php.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

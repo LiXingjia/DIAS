@@ -29,11 +29,11 @@ class bosszhipinSpider(scrapy.Spider):
             yield item
 
 
-        #翻页
-        url = response.xpath('//a[@class = "next"]/@href').extract_first()
-        if url is not None:
-            page = response.urljoin(url)
-            yield scrapy.Request(page, callback=self.parse)
+        # #翻页
+        # url = response.xpath('//a[@class = "next"]/@href').extract_first()
+        # if url is not None:
+        #     page = response.urljoin(url)
+        #     yield scrapy.Request(page, callback=self.parse)
 
     def trantime(self, date):
         match1 = re.match(r'(发布于)(\d+月\d+)日', date)
@@ -46,10 +46,7 @@ class bosszhipinSpider(scrapy.Spider):
 
 
     def transalary(self, salary):
-        match1 = re.match(r'(\d+)k-(\d+)k', salary)
-        low = str(int(match1.group(1))*1000)
-        high = str(int(match1.group(2))*1000)
-        result = low + '-' + high
+        result = salary.replace('k', 'K')
         return result
 
 
