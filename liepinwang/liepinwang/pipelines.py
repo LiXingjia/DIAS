@@ -26,7 +26,7 @@ class CompareInfo(object):
         # 打开文件
         # 若存在，打开文件，读取数据后删除
         if os.path.exists(self.oldfile):
-            old = open(self.oldfile, 'r')
+            old = open(self.oldfile, 'r', encoding='utf-8')
             self.olddata = json.load(old)
             # 关闭旧文件
             old.close()
@@ -36,7 +36,7 @@ class CompareInfo(object):
         else:
             self.olddata = []
         # 新建新文件,保存新一轮数据
-        self.new = open(self.newfile, 'w')
+        self.new = open(self.newfile, 'w', encoding='utf-8')
         self.newdata = []
 
     def process_item(self, item, spider):
@@ -57,7 +57,7 @@ class CompareInfo(object):
             conn = mysql.connector.connect(user='DIAS', password='84877178', database='dias')
             cursor = conn.cursor()
             for each in self.olddata:
-                delete_sql = "delete from "+spider.settings['BOT_NAME']+"_"+spider.name+"where jobName =" + each['jobName'] + "and company ="+each['company']
+                delete_sql = "delete from "+spider.settings['BOT_NAME']+"_"+spider.name+"where jobName ='" + each['jobName'] + "'and company ='"+each['company']+"'"
                 cursor.execute(delete_sql)
                 conn.commit()
             cursor.close()

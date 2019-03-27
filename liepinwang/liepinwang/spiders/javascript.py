@@ -6,17 +6,18 @@ from liepinwang.items import LiepinwangItem
 
 
 class bosszhipinSpider(scrapy.Spider):
-    name = 'php'
+    name = 'js'
     # allowed_domains = []
     #起始页
-    start_urls = ['https://www.liepin.com/zhaopin/?industries=&subIndustry=&dqs=280020&salary=&jobKind=&pubTime=&compkind=&compscale=&industryType=&searchType=1&clean_condition=&isAnalysis=&init=1&sortFlag=15&flushckid=1&fromSearchBtn=2&headckid=707e7b1abdd13da5&d_headId=6b63612c899176441fcc9b59064c8d68&d_ckId=6b63612c899176441fcc9b59064c8d68&d_sfrom=search_industry&d_curPage=0&d_pageSize=40&siTag=4b_XYjIeQJzuSsC26EGWPA~fA9rXquZc5IkJpXC-Ycixw&key=php']
+    start_urls = ['https://www.liepin.com/zhaopin/?imscid=R000000035&key=Javascript&dqs=280020']
+
 
     def parse(self, response):
         # 循环搜索结果列表，提取相关内容
         for each in response.xpath('//ul[@class="sojob-list"]/li'):
             item = LiepinwangItem()
             item['jobName'] = each.xpath('./div/div[1]/h3/a/text()').extract_first().strip()
-            item['jobType'] = 'php开发'
+            item['jobType'] = 'javascript'
             item['company'] = each.xpath('./div/div[2]/p[1]/a/text()').extract_first()
             item['companyType'] = self.company(each.xpath('./div/div[2]/p[2]//text()').extract())
             info = each.xpath('./div/div[1]/p[1]/@title').extract_first().split('_')
@@ -36,7 +37,6 @@ class bosszhipinSpider(scrapy.Spider):
         if url is not None:
             page = response.urljoin(url)
             yield scrapy.Request(page, callback=self.parse)
-
 
     def welfare(self, info):
             result = ''
